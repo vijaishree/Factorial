@@ -6,7 +6,7 @@ public class FactorialFinder {
         this.number = number ;
     }
 
-    public Integer check() {
+    public Integer calculator() {
         if(number<0) return null;
 
         if(number<=1) return 1;
