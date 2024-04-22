@@ -12,9 +12,9 @@ public class FactorialFinder {
         if(number<=1) return 1;
 
         int factorialValue = 1;
-            for(int currentNumber = number ; currentNumber >=1 ; currentNumber--){
-                factorialValue *= currentNumber;
-            }
-            return factorialValue;
+
+        for(int currentNumber = number ; currentNumber >=1 ; currentNumber--) factorialValue *= currentNumber;
+
+        return factorialValue;
         }
 }
