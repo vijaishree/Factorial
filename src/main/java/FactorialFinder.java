@@ -1,13 +1,7 @@
 public class FactorialFinder {
 
-    private final int number;
-
-    public FactorialFinder(int number) {
-        this.number = number ;
-    }
-
-    public Integer calculator() {
-        if(number<0) return null;
+    public Integer find(int number) {
+        if(number<0) throw new RuntimeException("Number is less than zero");
 
         if(number<=1) return 1;
 
