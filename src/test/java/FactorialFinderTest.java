@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FactorialFinderTest {
     @Test
-    void factorialValueToBeNullIfNumberIsNegative() {
+    void numberIsLessThanZeroErrorIfNumberIsNegative() {
         Throwable exception = assertThrows(RuntimeException.class, new Executable() {
             @Override
             public void execute() throws Throwable {
